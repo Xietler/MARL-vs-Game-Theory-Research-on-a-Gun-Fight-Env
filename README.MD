@@ -137,7 +137,7 @@ python OptDDPGSelf.py exec 20 100 models/ddpg_actor_SelfB_300000 models/ddpg_Cri
     running_state = ZFilter((num_inputs,), clip=5.0)
   ```
 ---
-###References
+### References
 * 莫烦强化学习、Pytorch、Tensorflow系列教程 https://morvanzhou.github.io/about/
 * OpenAI强化学习的baseline implementation：https://github.com/openai/baselines
 * DeepMind官方github：https://github.com/deepmind
